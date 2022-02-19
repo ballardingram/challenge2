@@ -47,7 +47,7 @@ body {
 
 .container h2 {
     margin: 50px 0 10px 35px;
-    padding-left: 10px;
+    padding: 0 10px;
     height: fit-content;
     max-width: fit-content;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -58,12 +58,51 @@ body {
 .container p {
     text-align: justify;
     max-width: 95%;
+    margin: 20px 0 0 35px;
 }
 
+.container ul li{
+   list-style-type: square gold;
+    }
+
 .aboutmeimg {
-    margin: 0 20px 20px 25px;
+    margin: 20px 20px 20px 25px;
     float: left;
     width: 200px;
     height: auto;
 
+}
+
+.wpimg {
+    margin: 20px 20px 20px 35px;
+    border: 5px gold solid;
+    width: auto;
+    height: 150px;
+    float: left;
+}
+
+.ipimg {
+    margin: 20px 20px 20px 35px;
+    border: 5px gold solid;
+    width: auto;
+    height: 150px;
+    float: left;
+    opacity: 0.25;
+}
+
+.wpimg:hover {
+    margin: 20px 20px 20px 35px;
+    border: 5px black solid;
+    width: auto;
+    height: 160px;
+    float: left;
+}
+
+.ipimg:hover {
+    margin: 20px 20px 20px 35px;
+    border: 5px gold solid;
+    width: auto;
+    height: 160px;
+    float: left;
+    opacity: 1; 
 }
