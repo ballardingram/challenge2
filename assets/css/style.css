@@ -12,3 +12,51 @@ body{
     background-image: url("../challenge2/assets/Banner.jpg");
     background-position: center;
 }
+
+.header {
+    position: fixed;
+    padding: 20px auto;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header h1 {
+    padding-left: 15px;
+    display: inline;
+    font-size: 15px;
+}
+
+.header div {
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.header div ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 50px;
+    text-decoration: underline solid gold;
+}
+
+.container h2 {
+    margin: 50px 0 10px 35px;
+    padding-left: 10px;
+    height: fit-content;
+    max-width: fit-content;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: gold;
+    color: black;
+}
+
+.container p {
+    margin-left: 25px;
+    padding-left: 10px;
+    height: fit-content;
+    max-width: fit-content;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
