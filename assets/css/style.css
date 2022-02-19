@@ -14,10 +14,14 @@ body{
 }
 
 .header {
-    position: fixed;
     padding: 20px auto;
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header a {
+    color: black;
+    text-decoration: underline solid gold;
 }
 
 body {
@@ -39,7 +43,6 @@ body {
     display: inline;
     list-style-type: none;
     padding: 50px;
-    text-decoration: underline solid gold;
 }
 
 .container h2 {
@@ -53,10 +56,14 @@ body {
 }
 
 .container p {
-    margin-left: 25px;
-    padding-left: 10px;
-    height: fit-content;
-    max-width: fit-content;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: black;
+    text-align: justify;
+    max-width: 95%;
+}
+
+.aboutmeimg {
+    margin: 0 20px 20px 25px;
+    float: left;
+    width: 200px;
+    height: auto;
+
 }
