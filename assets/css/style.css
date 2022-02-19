@@ -1,0 +1,14 @@
+body{
+    background-color:white;
+    margin: 0;
+    color: black;
+}
+.bannerhero img{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    width: auto;
+    display: block;
+    background-image: url("../challenge2/assets/Banner.jpg");
+    background-position: center;
+}
