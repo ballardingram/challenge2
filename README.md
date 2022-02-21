@@ -23,7 +23,7 @@ I'm going to call out the fact that I added "<br>" to the body of the page becau
 Below are screenshots and a gif of the page:
 
 Header and Navigation Bar
-<img src="challenge2/assets/ReadMe/screenshot1.png"
+<img src="https://photos.app.goo.gl/RGvV8SD2fV7zv4XJ6"
 raw=true
 alt="Header and Navigation Bar"
 stlye="margin-right:10px;"
