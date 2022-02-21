@@ -1,33 +1,41 @@
+/*THE BACKGROUND*/
 body{
+    /*We are going to start with a clean and simple background.*/
     background-color:white;
     margin: 0;
     color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+/*THE BANNER*/
 .bannerhero img{
+    /*This is going to keep the header at the top and the width of the page as it is resized by the user.*/
     max-width: 100%;
     height: auto;
     margin: auto;
     width: auto;
     display: block;
-    background-image: url("../challenge2/assets/Banner.jpg");
     background-position: center;
+    /*This is the image that is going to be our banner. It's stored locally.*/
+    background-image: url("../challenge2/assets/Banner.jpg");
 }
 
+/*THE NAVIGATION BAR*/
 .header {
+    /*This is going to set the spacing for teh navigation bar.*/
     padding: 20px auto;
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .header a {
+    /*This is going to make the navigation bar not look like a typical link and fit the style of the page.*/
     color: black;
     text-decoration: underline solid gold;
 }
 
-body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 .header h1 {
+    /*This is something I will add later on, but using as a placeholder.*/
     padding-left: 15px;
     display: inline;
     font-size: 15px;
@@ -45,7 +53,9 @@ body {
     padding: 50px;
 }
 
+/*THE SECTIONS*/
 .container h2 {
+    /*This applies the mockup stlye to the section headers.*/
     margin: 50px 0 10px 35px;
     padding: 0 10px;
     height: fit-content;
@@ -56,16 +66,20 @@ body {
 }
 
 .container p {
+    /*This will help the text for each section wrap around the images.*/
     text-align: justify;
     max-width: 95%;
     margin: 20px 0 0 35px;
 }
 
 .container ul li{
+    /*This is going to take some rework because the bullet points did not change.*/
    list-style-type: square gold;
     }
 
+    /*THE IMAGES*/
 .aboutmeimg {
+    /*The style to the images are particular because of the functionality of each image. In this case, this is static.*/
     margin: 20px 20px 20px 25px;
     float: left;
     width: 200px;
@@ -74,6 +88,7 @@ body {
 }
 
 .wpimg {
+    /*This image is depenent on opacity being 100%.*/
     margin: 20px 20px 20px 35px;
     border: 5px gold solid;
     width: auto;
@@ -82,6 +97,7 @@ body {
 }
 
 .ipimg {
+    /*Since this project is pending, setting the opacity lower implies it is a preview.*/
     margin: 20px 20px 20px 35px;
     border: 5px gold solid;
     width: auto;
@@ -91,6 +107,7 @@ body {
 }
 
 .wpimg:hover {
+    /*This action makes the main work product bigger and bolded with a black border when the mouse hovers it.*/
     margin: 20px 20px 20px 35px;
     border: 5px black solid;
     width: auto;
@@ -99,6 +116,7 @@ body {
 }
 
 .ipimg:hover {
+    /*This action makes the pending project opacity to 100% when the user hovers it.*/
     margin: 20px 20px 20px 35px;
     border: 5px gold solid;
     width: auto;
@@ -107,14 +125,18 @@ body {
     opacity: 1; 
 }
 
+/*CONTACT ME*/
 .contactimg {
+    /*This is going to keep all of the contact icons inline.*/
     margin: 0 20px 20px 35px;
     float: left;
     width: 50px;
     height: auto;
 }
 
+/*THE FOOTER*/
 .footer {
+    /*This is going to set the bottom footer bar for the website.*/
     margin-top: 100px;
     background: black;
     width: 100%;
@@ -122,6 +144,7 @@ body {
 }
 
 .footer h2 {
+    /*This is going to set the text style for the footer.*/
     color: gold;
     text-align: center;
 }

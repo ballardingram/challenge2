@@ -49,5 +49,3 @@ raw=true
 alt="Contact Me and Footer"
 style="margin-right:10px;"
 />
-
-<img src="https://drive.google.com/file/d/1AayLeoaWo9SRN_b5d_3fxH9TCWDYdZli/">
