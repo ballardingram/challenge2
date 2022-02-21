@@ -8,6 +8,7 @@ This website was built with HTML and CSS. I used VS Code to write and edit the c
 
 ## Website
 You can find the final product at:
+https://ballardingram.github.io/challenge2/
 
 ## Contributions
 This was largely and independent project. I worked with my TA Ian Sears to get support with the box model issues I had.
@@ -22,4 +23,8 @@ I'm going to call out the fact that I added "<br>" to the body of the page becau
 Below are screenshots and a gif of the page:
 
 Header and Navigation Bar
-![Alt text] (/challenge2/assets/ReadMe/screenshot1.png)
+<img src="challenge2/assets/ReadMe/screenshot1.png"
+raw=true
+alt="Header and Navigation Bar"
+stlye="margin-right:10px;"
+/>
