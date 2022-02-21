@@ -26,5 +26,26 @@ Header and Navigation Bar
 <img src="https://github.com/ballardingram/challenge2/blob/main/assets/ReadMe/screenshot1.png"
 raw=true
 alt="Header and Navigation Bar"
-stlye="margin-right:10px;"
+style="margin-right:10px;"
+/>
+
+About Me
+<img src="https://github.com/ballardingram/challenge2/blob/main/assets/ReadMe/screenshot2.png"
+raw=true
+alt="About Me"
+style="margin-right:10px;"
+/>
+
+Work Product
+<img src="https://github.com/ballardingram/challenge2/blob/main/assets/ReadMe/screenshot3.png"
+raw=true
+alt="Work Product"
+style="margin-right:10px;"
+/>
+
+Contact Me and Footer
+<img src="https://github.com/ballardingram/challenge2/blob/main/assets/ReadMe/screenshot4.png"
+raw=true
+alt="Contact Me and Footer"
+style="margin-right:10px;"
 />
